@@ -12,7 +12,7 @@ Version=0.1
 
 if float("%d.%d" % sys.version_info[:2]) < py_version:
     sys.stderr.write("Your Python version %d.%d.%d is not supported.\n" % sys.version_info[:3])
-    sys.stderr.write("pyceievents requires Python %f or newer.\n" % (py_version))
+    sys.stderr.write("cloudyvents requires Python %f or newer.\n" % (py_version))
     sys.exit(1)
 
 setup(name='cloudyvents',
@@ -21,7 +21,7 @@ setup(name='cloudyvents',
       author='Nimbus Team',
       author_email='nimbusteam@mcs.anl.gov',
       url='http://www.nimbusproject.org/',
-      packages=[ 'pyceievents', 'pyceievents.tests' ],
+      packages=[ 'cloudyvents', 'cloudyvents.tests' ],
       long_description="""
 """,
       license="Apache2",
